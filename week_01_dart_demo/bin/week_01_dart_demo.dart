@@ -11,9 +11,7 @@ void main(List<String> arguments) {
   int age;
 
   name = prompt('Enter your name: ');
-
-  // TODO: use the promptInt function for the age
-  age = int.parse(prompt('Enter your age: '));
+  age = promptInt('Enter your age: ');
 
   final p = Person(name, age);
 
